@@ -8,6 +8,6 @@ ThermoPalm is a tool to predict protein thermostability using protein language e
 
 Citation
 ----------
-If you find EpHod useful, please cite the following:
+If you find ThermoPalm useful, please cite the following:
 
 Gado JE, Law J, Marks D, Bomble Y, Beckham GT. A comparative assessment of protein language models for prediction of thermostability
