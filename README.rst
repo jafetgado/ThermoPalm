@@ -1,8 +1,7 @@
 **ThermoPalm**
 ===============
 
-ThermoPalm is a deep semi-supervised model to predict protein thermostability from 
-embeddings of protein language models.
+ThermoPalm is a tool to predict protein thermostability using protein language embeddings.
 
 
 
