@@ -7,7 +7,20 @@ melting temperature values of the Meltome Atlas dataset, is applied to predict t
 temperatures of specified proteins.
 
 
+Usage 
+-------------
 
+.. code:: shell-session
+
+    git clone https://github.com/jafetgado/ThermoPalm.git
+    cd ThermoPalm
+    conda env create -f ./env.yml -p ./env
+    conda activate ./env
+    python ./thermopalm/predict.py \
+        --fasta_path "path_to_seq_file.fasta" \
+        --save_dir ./save_directory \
+        --csv_name predictions.csv \
+        --verbose 1 
 
 
 Citation
