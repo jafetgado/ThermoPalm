@@ -141,7 +141,7 @@ def load_ridge_model():
     '''Return trained ridge regression model and statistics for feature scaling'''
     
     this_dir, this_filename = os.path.split(__file__)
-    models_path = os.path.join(this_dir, 'ridge_model.pkl')
+    models_path = os.path.join(this_dir, 'ridge_model.joblib')
     stats_path = os.path.join(this_dir, 'scaler_stats.csv')
     model = joblib.load(models_path)
     stats = pd.read_csv(stats_path, index_col=0)
@@ -225,7 +225,7 @@ def main():
     
     # Standardize and predict
     if args.verbose:
-        print("Predicting Tm")
+        print("Predicting Tm from embeddings")
     X = (dfemb.values - means) / (stds + 1e-8)
     ypred = model.predict(X)
     dfy = pd.Series(ypred, index=dfemb.index)
