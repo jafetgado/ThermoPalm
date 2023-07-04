@@ -18,7 +18,7 @@ Usage
     conda activate ./env
     python ./thermopalm/predict.py \
         --fasta_path "path_to_seq_file.fasta" \
-        --save_dir ./save_directory \
+        --save_dir ./output_dir \
         --csv_name predictions.csv \
         --verbose 1 
 
