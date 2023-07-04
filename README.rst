@@ -10,4 +10,4 @@ Citation
 ----------
 If you find ThermoPalm useful, please cite the following:
 
-Gado JE, Law J, Marks D, Bomble Y, Beckham GT. A comparative assessment of protein language models for prediction of thermostability
+Gado JE, Sander C, Marks D, Beckham GT. A comparative assessment of language models for prediction of protein thermostability
