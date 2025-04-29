@@ -27,4 +27,4 @@ Citation
 ----------
 If you find ThermoPalm useful, please cite the following:
 
-Gado JE et al, 2023. Language model embeddings excel at predicting protein thermostability.
+Norton-Baker B, Komp E, Gado JE, et al, 2025. "Machine learning-guided identification of PET hydrolases from natural diversity".
